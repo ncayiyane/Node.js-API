@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     if (req.method === 'GET') {
         // Handle GET request
         if (req.url === '/items') {
-            const data = fs.readFileasync(DATA, 'utf-8');
+            const data = fs.readFile(DATA, 'utf-8');
             const items = JSON.parse(data);
             res.statusCode = 200;
             res.end(JSON.stringify(items));
