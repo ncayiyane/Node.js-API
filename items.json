@@ -1,7 +1,14 @@
 [
- {
-   "name": "Aphiwe",
-   "age": 24
- }
-  
+  {
+    "name": "Andrew",
+    "age": 8
+  },
+  {
+    "name": "Aphiwe",
+    "age": 6
+  },
+  {
+    "name": "Nelson",
+    "age": 10
+  }
 ]
